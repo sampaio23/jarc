@@ -1,0 +1,25 @@
+{
+  "LEDs": [
+    {
+      "name" : "GPIO17",
+      "type" : "bool",
+      "direction" : "out"
+    }
+  ],
+  "PWMs" : [
+    {
+      "name" : "GPIO12",
+      "type" : "uint8_t",
+      "direction" : "out",
+      "range" : [0, 255]
+    }
+  ],
+  "Buttons" : [
+    {
+      "name" : "GPIO23",
+      "type" : "bool",
+      "direction" : "in"
+    }
+  ]
+}
+
