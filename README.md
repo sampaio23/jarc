@@ -12,12 +12,13 @@ The main goal is to implement a simple protocol (instead of something bigger suc
 
 The first milestones aim to validate the project, based on the rpi.json file.
 
-[ ] Create a basic code to control some pins of a Raspberry Pi
-	[ ] Create server code with callbacks
-	[ ] Create client code controlled via command line
-[ ] Implement the interface
-	[ ] Implement a fixed interface with ncurses, similar to Kconfig
-	[ ] Implement the message transfer (UDP, TCP...)
-[ ] Implement the code generation
-	[ ] Parse the JSON
-	[ ] Implement derived classes based on the JSON
+- [ ] Create a basic code to control some pins of a Raspberry Pi
+	- [ ] Create server code with callbacks
+	- [ ] Create client code controlled via command line
+- [ ] Implement the interface
+	- [ ] Implement a fixed interface with ncurses, similar to Kconfig
+	- [ ] Implement the message transfer (UDP, TCP...)
+	
+- [ ] Implement the code generation
+	- [ ] Parse the JSON
+	- [ ] Implement derived classes based on the JSON
